@@ -15,7 +15,8 @@ pipeline {
       step {
         echo "Package the project"
       }
-      stage ('Deploy') {
+    }
+     stage ('Deploy') {
         step {
           echo "Deploy the project"
         }
